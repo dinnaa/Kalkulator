@@ -3,10 +3,11 @@ package vjezba;
 public class Kalkulator {
 
 		public double mnozenje(double a, double b) {
+			
 			return a * b;
 		}
 		public  double dijeljenje(double a, double b) {
-			return 0;
+			return a / b;
 		}
 		public  double korjenovanje(double broj) {
 			return 0;
