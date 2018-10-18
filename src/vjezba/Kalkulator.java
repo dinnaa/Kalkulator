@@ -9,11 +9,11 @@ public class Kalkulator {
 		public  double dijeljenje(double a, double b) {
 			return a / b;
 		}
-		public  double korjenovanje(double broj) {
-			return 0;
+		public  double korjenovanje(double broj1) {
+			return Math.sqrt(broj1);
 		}
 			public  double kvadriranje(double broj1) {
-				return 0;
+				return Math.pow(broj1, 2);
 			}
 
 			public  double Oduzimanje(double broj1 , double broj2) {
